@@ -1,0 +1,43 @@
+body {
+    background-color: #2C2B2B;
+}
+
+#top-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+#topPageContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#title-top {
+    color: white;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+#content-page {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contentNamePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#image-content {
+    padding-right: 40px;
+}
