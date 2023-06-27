@@ -2,9 +2,8 @@ async function timedWriting(sentence, element, time) {
     let i = 0;
     sentence = sentence.split("")
     while (i < sentence.length) {
-        await waitForMs(time);
+        await wait(time);
         element.innerHTML += sentence[i];
-        console.log(sentence[i])
         i++
     }
     return;
@@ -14,3 +13,4 @@ async function timedWriting(sentence, element, time) {
 function wait(time) {
     return new Promise(resolve => setTimeout(resolve, time))
 }
+
