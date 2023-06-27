@@ -5,6 +5,7 @@ body {
 #top-page {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 #topPageContent {
@@ -27,7 +28,11 @@ body {
     padding-top: 80px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
 
 #contentNamePage {
@@ -38,6 +43,11 @@ body {
     align-content: center;
 }
 
-#image-content {
-    padding-right: 40px;
+#button-content {
+    width: 400px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #10E005;
+    color: white;
+    font-size: 30px;
 }
