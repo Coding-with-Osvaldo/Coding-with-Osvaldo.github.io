@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #2C2B2B;
     color: white;
+    overflow-x: hidden;
 }
 
 img#IFPB {
@@ -22,7 +23,9 @@ div#teacher_container {
     padding: 7px 20px;
     border-radius: 20px;
     margin-top: 1em;
-
+    align-self: flex-start;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
 }
 
 div#teacher {
@@ -33,6 +36,70 @@ div#teacher {
 
 div#teacher_name {
     color: black;
-    font-weight: bold;
     display: flex;
+}
+
+section {
+    display: flex;
+    width: 75vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+div#description_header {
+    width: 75vw;
+    height: 3vw;
+    background-color: #383838;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#mac_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+    gap: 15px;
+}
+
+p#grade_title {
+    text-indent: 2vw;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.ball {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
+}
+
+div#red_ball {
+    background-color: red;
+}
+
+div#yellow_ball {
+    background-color: yellow;
+}
+
+div#green_ball {
+    background-color: green;
+}
+
+div#description_screen {
+    width: 75vw;
+    background-color: #585858;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5vw;
+}
+
+p#description_content {
+    margin: 0.5em 1em 1em 1em;
+    text-align: justify;
+    font-size: 2em;
 }

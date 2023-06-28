@@ -3,8 +3,13 @@ async function timedWriting(sentence, element, time) {
     sentence = sentence.split("")
     while (i < sentence.length) {
         await wait(time);
-        element.innerHTML += sentence[i];
-        i++
+        if (sentence[i] == "\n") {
+            i++
+            element.innerHTML += "<br/><br/>"
+        } else {
+            element.innerHTML += sentence[i];
+            i++
+        }
     }
     return;
 }
