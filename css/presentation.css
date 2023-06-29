@@ -17,15 +17,55 @@ h1 {
     margin-top: 40px;
 }
 
+div#teacher_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75vw;
+    align-items: center;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+div#teacher_src {
+    width: 20%;
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#teacher_information img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10vw;
+}
+
+div#teacher_information div#curriculum a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+div#curriculum {
+    display: flex;
+    text-align: center;
+    background-color: blue;
+    border-radius: 25px;
+    padding: 5px 2vw;
+    margin-top: 1vw;
+}
+
 div#teacher_container {
-    display: inline-flex;
+    display: flex;
     background-color: green;
     padding: 7px 20px;
     border-radius: 20px;
-    margin-top: 1em;
-    align-self: flex-start;
-    margin-bottom: 1.5em;
     font-size: 1.5em;
+    margin: auto 0;
+    white-space: nowrap;
 }
 
 div#teacher {
@@ -96,6 +136,7 @@ div#description_screen {
     padding: 5px;
     box-sizing: border-box;
     margin-bottom: 5vw;
+    border-radius: 0 0 10px 10px;
 }
 
 p#description_content {
