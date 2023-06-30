@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
 img#IFPB {
     position: absolute;
     top: 10px;
@@ -20,15 +24,14 @@ h1 {
 div#teacher_information {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 75vw;
     align-items: center;
     margin-bottom: 2vw;
-    margin-top: 2vw;
+    gap: 5vw;
 }
 
 div#teacher_src {
-    width: 20%;
     margin-right: 2vw;
     display: flex;
     align-items: center;
@@ -38,24 +41,25 @@ div#teacher_src {
 
 div#teacher_information img {
     width: 10vw;
-    height: 10vw;
-    border-radius: 10vw;
+    border-radius: 15px;
 }
 
 div#teacher_information div#curriculum a {
     width: 100%;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 div#curriculum {
+    font-weight: bold;
     display: flex;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(177, 175, 175);
     border-radius: 25px;
-    padding: 5px 2vw;
+    padding: 5px 1.5em;
     margin-top: 1vw;
+    font-size: 1.5em;
 }
 
 div#teacher_container {
@@ -63,19 +67,17 @@ div#teacher_container {
     background-color: green;
     padding: 7px 20px;
     border-radius: 20px;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: auto 0;
     white-space: nowrap;
 }
 
 div#teacher {
-    color: black;
     font-weight: bold;
     display: flex;
 }
 
 div#teacher_name {
-    color: black;
     display: flex;
 }
 
@@ -143,4 +145,8 @@ p#description_content {
     margin: 0.5em 1em 1em 1em;
     text-align: justify;
     font-size: 2em;
+}
+
+.bold {
+    font-weight: bolder;
 }
