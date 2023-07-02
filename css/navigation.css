@@ -20,6 +20,7 @@ body{
 
 .period:hover{
     scale: 1.2;
+    transition-delay: 0.3s;
 }
 
 .period{
