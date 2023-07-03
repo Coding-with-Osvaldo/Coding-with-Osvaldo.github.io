@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2C2B2B;
+    color: white;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+img#IFPB {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+div#teacher_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75vw;
+    align-items: center;
+    margin-bottom: 2vw;
+    gap: 5vw;
+}
+
+div#teacher_src {
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#teacher_information img {
+    width: 10vw;
+    border-radius: 15px;
+}
+
+div#teacher_information div#curriculum a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+div#curriculum {
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    background-color: rgb(177, 175, 175);
+    border-radius: 25px;
+    padding: 5px 1.5em;
+    margin-top: 1vw;
+    font-size: 1.5em;
+}
+
+div#teacher_container {
+    display: flex;
+    background-color: green;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 2em;
+    margin: auto 0;
+    white-space: nowrap;
+}
+
+div#teacher {
+    font-weight: bold;
+    display: flex;
+}
+
+div#teacher_name {
+    display: flex;
+}
+
+section {
+    display: flex;
+    width: 75vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+div#description_header {
+    width: 75vw;
+    height: 3vw;
+    background-color: #383838;
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#mac_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+    gap: 15px;
+}
+
+p#grade_title {
+    text-indent: 2vw;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.ball {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
+}
+
+div#red_ball {
+    background-color: red;
+}
+
+div#yellow_ball {
+    background-color: yellow;
+}
+
+div#green_ball {
+    background-color: green;
+}
+
+div#description_screen {
+    width: 75vw;
+    background-color: #585858;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5vw;
+    border-radius: 0 0 10px 10px;
+}
+
+p#description_content {
+    margin: 0.5em 1em 1em 1em;
+    text-align: justify;
+    font-size: 2em;
+}
+
+.bold {
+    font-weight: bolder;
+}
