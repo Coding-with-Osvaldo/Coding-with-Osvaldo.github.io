@@ -25,6 +25,11 @@ function reloadGrades(id) {
                 titulos.id = 'titulos';
                 titulos.innerText = item.description.name;
 
+                console.log(res)
+
+                disciplina_container.addEventListener("click", () => {
+                    window.location.replace(`../html/presentation.html?id=${item.id}`);
+                })
 
                 balls_container.appendChild(green_ball);
                 balls_container.appendChild(yellow_ball);

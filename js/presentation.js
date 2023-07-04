@@ -1,4 +1,6 @@
-fetch(`https://ads-grades-api.onrender.com/grade/13`, {
+const params = getParameters()
+
+fetch(`https://ads-grades-api.onrender.com/grade/${params.id}`, {
     method: "GET"
 })
     .then(res => res.json())

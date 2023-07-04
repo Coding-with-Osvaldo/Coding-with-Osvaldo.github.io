@@ -24,6 +24,10 @@ body {
     transition-delay: 0.3s;
 }
 
+.disciplina-container {
+    cursor: pointer;
+}
+
 .period {
     background-color: rgb(255, 255, 255);
     width: 202px;
