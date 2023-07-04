@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     background-color: #2C2B2B;
     display: flex;
     align-items: center;
@@ -16,14 +16,15 @@ body{
     display: flex;
     margin: 0 auto;
     gap: 30px;
+    justify-content: center;
 }
 
-.period:hover{
+.period:hover {
     scale: 1.2;
     transition-delay: 0.3s;
 }
 
-.period{
+.period {
     background-color: rgb(255, 255, 255);
     width: 202px;
     height: 80px;
@@ -37,34 +38,34 @@ body{
 
 
 
- #title-period {
+#title-period {
     text-align: center;
     margin: 60px 0 120px 0;
     color: white;
     letter-spacing: 1px;
- }
+}
 
 
 
 
-.disciplinas-box{
+.disciplinas-box {
     width: 1200px;
     height: 300px;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
-    margin:0 auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
-.title-disciplina{
+.title-disciplina {
     text-align: center;
     margin: 150px 0 80px 0;
 }
 
 
-.balls-container{
+.balls-container {
     height: 2vh;
     width: 100%;
     display: flex;
@@ -76,46 +77,49 @@ body{
     padding-right: 10px;
 }
 
-.name-disciplina{
+.name-disciplina {
     background-color: #585858;
     display: flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
     height: 13vh;
     width: 220px;
     border-radius: 0 0 10px 10px;
     color: white;
+    box-sizing: border-box;
 }
 
-#green{
+#green {
     background-color: greenyellow;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
-#yellow{
+
+#yellow {
     background-color: rgb(238, 255, 0);
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
-#red{
+#red {
     background-color: rgb(255, 0, 0);
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
-.title-disciplina{
-
+.title-disciplina {
     color: white;
 }
 
-#titulos{
-    width:100%;
+#titulos {
+    width: 100%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
     text-align: center;
+    font-size: 1.6em;
+    margin: 0 5px;
 }
