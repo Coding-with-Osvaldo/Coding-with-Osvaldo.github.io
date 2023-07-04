@@ -64,5 +64,10 @@ body {
     color: white;
     font-size: 30px;
     border-style: none;
+    
+}
+
+a {
+    text-decoration: none;
 }
 
