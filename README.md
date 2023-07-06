@@ -22,10 +22,9 @@ saber mais sobre as cadeiras que ainda irá pagar</p>
 + JAVASCRIPT - Linguagem de Programação
 
 
-<h2>📋 Requisitos para executar o projeto</h2>
+<h2>📋 Requisitos </h2>
 
-+ Acesso à Internet para utilizar a API
-+ Editor de código de sua preferência
++ Navegador (Desktop)
 
 <h2>:black_nib: Autores</h2>
 
