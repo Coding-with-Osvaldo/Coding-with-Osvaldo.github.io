@@ -1,11 +1,19 @@
 function reloadGrades(id) {
     const grade = document.querySelector('.disciplinas-box');
     grade.innerHTML = '';
+    const loading = document.createElement("img")
+    loading.src = "../assets/loading-buffering.gif"
+    loading.style.width = "20%"
+    grade.appendChild(loading)
     fetch(`https://ads-grades-api.onrender.com/period/${id}`, {
         method: "GET"
     })
         .then(res => res.json())
         .then(res => {
+            if (res == "") {
+                return
+            }
+            grade.innerHTML = ""
             res.forEach((item) => {
                 const disciplina_container = document.createElement('div');
                 const balls_container = document.createElement('div');
@@ -25,10 +33,8 @@ function reloadGrades(id) {
                 titulos.id = 'titulos';
                 titulos.innerText = item.description.name;
 
-                console.log(res)
-
                 disciplina_container.addEventListener("click", () => {
-                    window.location.replace(`../html/presentation.html?id=${item.id}`);
+                    window.location = `../html/presentation.html?id=${item.id}`;
                 })
 
                 balls_container.appendChild(green_ball);
@@ -52,7 +58,7 @@ function addLinks() {
     periods.forEach(item => {
         const period = document.createElement("h1")
         period.classList.add("period")
-        period.innerText = `${item}º Periodo`
+        period.innerText = `${item}º Período`
         period.addEventListener("click", () => {
             reloadGrades(item)
         })

@@ -19,13 +19,22 @@ body {
     justify-content: center;
 }
 
+.period {
+    transition: all .2s ease-in-out;
+}
+
 .period:hover {
-    scale: 1.2;
-    transition-delay: 0.3s;
+    transform: scale(1.1);
 }
 
 .disciplina-container {
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.disciplina-container:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
 }
 
 .period {
