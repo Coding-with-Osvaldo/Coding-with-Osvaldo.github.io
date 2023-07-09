@@ -11,9 +11,9 @@ os dados que foram cadastrados no banco de dados criado pela organização são 
 
 
 <h2>:bulb: Utilidade</h2>
-<p>O projeto foi criado com a utilidade de proporcionar um conhecimento prévio acerca do curso de ADS - IFPB-CZ, mostrando os conteúdos que poderão ser vistos nas grade, preparando e mostrando o 
+<p>O projeto foi criado com a utilidade de proporcionar um conhecimento prévio acerca do curso de ADS - IFPB-CZ, mostrando os conteúdos que poderão ser vistos nas grades, preparando e mostrando o 
 que o curso pode proporcionar, além de servir de material de consulta para quem gosta de se antecipar nos estudos. Serve também como referência para os discentes já matrículados que queiram
-saber mais sobre as cadeiras que ainda irá pagar</p>
+saber mais sobre as cadeiras que ainda irão pagar</p>
 
 <h2>:wrench: Construído com</h2>
 
@@ -36,6 +36,6 @@ saber mais sobre as cadeiras que ainda irá pagar</p>
   
 
 <h2> :inbox_tray: Mais informações e contato</h2>
-Coding With Osvaldo <a width="30px" align="center" href="https://github.com/Sr1515" target="_blank">:paperclip:</a> 
+Coding With Osvaldo <a width="30px" align="center" href="https://github.com/Coding-with-Osvaldo" target="_blank">:paperclip:</a> 
   
   
