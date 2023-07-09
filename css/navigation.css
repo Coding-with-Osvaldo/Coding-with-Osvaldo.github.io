@@ -34,6 +34,7 @@ body {
 
 .disciplina-container:hover {
     transform: scale(1.1);
+    border-radius: 5px;
 }
 
 .period {

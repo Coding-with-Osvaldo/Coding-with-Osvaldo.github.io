@@ -10,6 +10,9 @@ function reloadGrades(id) {
     })
         .then(res => res.json())
         .then(res => {
+            if (res == "") {
+                return
+            }
             grade.innerHTML = ""
             res.forEach((item) => {
                 const disciplina_container = document.createElement('div');
@@ -55,7 +58,7 @@ function addLinks() {
     periods.forEach(item => {
         const period = document.createElement("h1")
         period.classList.add("period")
-        period.innerText = `${item}º Periodo`
+        period.innerText = `${item}º Período`
         period.addEventListener("click", () => {
             reloadGrades(item)
         })
